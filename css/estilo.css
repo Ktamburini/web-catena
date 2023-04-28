@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(229, 242, 251);
+}
+
+h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 0.7rem;
+  line-height: 2rem;
+}
+
+a {
+  font-family: "Rajdhani", sans-serif;
+  color: aliceblue;
+  font-weight: 0;
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+
+.menu,
+.submenu {
+  font-size: 0;
+  list-style: none;
+}
+.menu li,
+.submenu li {
+  display: inline-block;
+  width: 10%;
+  position: relative;
+  font-size: 2rem;
+}
+
+.bajada {
+  background-color: rgb(5, 3, 38);
+  color: aliceblue;
+  top: 0px;
+}
+
+.boton {
+  background-color: rgb(6, 3, 48);
+  color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.boton:hover {
+  background-color: rgb(20, 10, 154);
+  color: white;
+}
+
+.boton_banner {
+  background-color: #4DA6CD;
+  color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.boton_banner:hover {
+  background-color: #056d99;
+  color: azure;
+}
+
+input {
+  background-color: #fbfbfb;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0a48d8;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0a48d8;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+.text_banner {
+  color: aliceblue;
+}
+
+/*# sourceMappingURL=estilo.css.map */
