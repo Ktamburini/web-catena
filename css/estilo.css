@@ -31,6 +31,11 @@ label {
   color: aliceblue;
 }
 
+.img-portada {
+  width: 100%;
+  object-fit: contain;
+}
+
 .menu,
 .submenu {
   font-size: 0;
