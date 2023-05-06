@@ -1,0 +1,36 @@
+$color-primario:#4DA6CD;
+$fuente-principal:'Roboto', sans-serif;
+$fuente-secundaria:'Rajdhani', sans-serif;
+
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: $fuente-principal;
+    background-color: rgb(229, 242, 251);
+}
+
+h4 {
+    font-family: $fuente-secundaria;
+    font-size: 0.7rem;
+    line-height: 2rem;
+}
+
+a {
+    font-family: 'Rajdhani', sans-serif;
+    color: aliceblue;
+    font-weight: 00;
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+
+  
+label{
+	display: block; 
+	float: center;  
+  }
+
+  .text_banner{
+	color: aliceblue;
+  }

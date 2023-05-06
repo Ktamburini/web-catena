@@ -1,0 +1,14 @@
+
+.menu,
+.submenu {
+    font-size: 0;
+    list-style: none;
+
+    li {
+        display: inline-block;
+        width: 10%;
+        position: relative;
+        font-size: 2rem;
+    }
+
+}

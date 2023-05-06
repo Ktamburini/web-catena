@@ -1,0 +1,29 @@
+
+.boton {
+	background-color: rgb(6, 3, 48);
+	color: aliceblue;
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 1rem;
+
+    &:hover{
+        background-color: rgb(20, 10, 154);
+        color:white
+    }
+}
+
+.boton_banner{
+	background-color:$color-primario;
+	color: aliceblue;
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 1.5rem;
+	margin-top: 10px;
+
+    &:hover{
+	background-color: #056d99;
+    color:azure
+    }
+}

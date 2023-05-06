@@ -22,6 +22,15 @@ a {
   line-height: 2rem;
 }
 
+label {
+  display: block;
+  float: center;
+}
+
+.text_banner {
+  color: aliceblue;
+}
+
 .menu,
 .submenu {
   font-size: 0;
@@ -91,15 +100,6 @@ textarea {
   padding-left: 10px;
   margin-bottom: 20px;
   padding-top: 15px;
-}
-
-label {
-  display: block;
-  float: center;
-}
-
-.text_banner {
-  color: aliceblue;
 }
 
 /*# sourceMappingURL=estilo.css.map */
