@@ -12,6 +12,27 @@ body {
     background-color: rgb(229, 242, 251);
 }
 
+h1 {
+    font-family: $fuente-secundaria;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: $fuente-secundaria;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+h3 {
+    font-family: $fuente-secundaria;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
 h4 {
     font-family: $fuente-secundaria;
     font-size: 0.7rem;
@@ -19,10 +40,11 @@ h4 {
 }
 
 a {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: $fuente-secundaria;
+    ;
     color: aliceblue;
     font-weight: 00;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 2rem;
 }
 
@@ -39,4 +61,25 @@ label {
 .img-portada {
     width: 100%;
     object-fit: contain;
+}
+
+.contenedor-portada {
+    position: relative;
+    
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px black;
+    }
 }
