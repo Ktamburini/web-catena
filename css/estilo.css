@@ -75,6 +75,23 @@ label {
   text-shadow: 1px 1px 1px black;
 }
 
+.espacio {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.margen {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
 .boton {
   background-color: rgb(6, 3, 48);
   color: aliceblue;
