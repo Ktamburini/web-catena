@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Catena |Desarrollo de Software</title>
-	<meta name="description" content="En Catena desarrollamos software a la medida, nuestros altos estándares de calidad y nivel de compromiso dan fé de la calidad de nuestros servicios. Trabajamos contigo para convertimos en un eslabón más de tu cadena de valor, aportando a tu organización un alto grado de especialización técnica">
+	<meta name="description"
+		content="En Catena desarrollamos software a la medida, nuestros altos estándares de calidad y nivel de compromiso dan fé de la calidad de nuestros servicios. Trabajamos contigo para convertimos en un eslabón más de tu cadena de valor, aportando a tu organización un alto grado de especialización técnica">
 	<!-- tipografía -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,8 @@
 	<!--  BOOSTRAP CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- AOS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- mi css -->
 	<link rel="stylesheet" href="css/estilo.css">
 </head>
@@ -70,20 +73,20 @@
 		<h1 class="text-center mt-2">¿Por qué Catena?</h1>
 
 		<section class="container d-flex flex-wrap">
-			<article class="col">
+			<article class="col" data-aos="zoom-in-down" data-aos-duration="2000">
 				<img src="./assets/img/profesionales.png " class="img-fluid" alt="Profesionales">
 				<h3 class="text-center mt-1">Profesionales entrenados</h3>
 			</article>
-			<article class="col">
+			<article class="col" data-aos="zoom-in-down" data-aos-duration="2000">
 				<img src="./assets/img/años.png" class="img-fluid" alt="Números avanzando">
 				<h3 class="text-center mt-1">Ayudando empresas líderes nacionales</h3>
 			</article>
-			<article class="col">
+			<article class="col" data-aos="zoom-in-down" data-aos-duration="2000">
 				<img src="./assets/img/confianza.png" class="img-fluid" alt="Manos estrechándose">
 				<h3 class="text-center mt-1">Confianza y respaldo</h3>
 			</article>
 		</section>
-		<section class="card bg-dark text-white mt-2">
+		<section class="card bg-dark text-white mt-2" data-aos="fade-up" data-aos-duration="2000">
 			<img src="./assets/img/fondo 1.png" class="card-img" alt="fondo azul">
 			<div class="container card-img-overlay d-flex align-items-center justify-content-end">
 				<h2 id="text_banner" class="text-right">¿Tienes un proyecto digital en mente?</h2>
@@ -95,15 +98,15 @@
 		</section>
 		<section class="container mt-4">
 			<!-- Texto proyectos -->
-			<article class="row">
-				<div class="col-md-6 flex-column order-md-first">
-					<h2 class="mt-2">Últimos Proyectos</h2>
+			<article class="row articulo">
+				<div class="col-12 col-md-6 flex-column order-md-first">
+					<h2 class="mt-2 articulo-text">Últimos Proyectos</h2>
 					<p>En Catena desarrollamos soluciones tecnológicas diferenciadoras e innovadoras. Descubre el poder
 						de la
 						reinvención con nosotros y conoce nuestras transformaciones más exitosas. </p>
 				</div>
-				<div class="col-md-6 flex-column">
-					<img id="top" src=" " alt="Proyecto">
+				<div class="col-12 col-md-6 flex-column">
+					<img id="top" src="./assets/img/portafolio.jpg" class="articulo-img" alt="Proyecto de terapeuta virtual de Teletón">
 				</div>
 			</article>
 		</section>
@@ -147,6 +150,12 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 		crossorigin="anonymous"></script>
+
+	<!--AOS JS-->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 
 </body>
 

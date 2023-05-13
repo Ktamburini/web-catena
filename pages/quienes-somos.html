@@ -14,6 +14,8 @@
 	<!--  BOOSTRAP CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<!-- AOS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- mi css -->
 	<link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -42,7 +44,7 @@
 	</header>
 	<!-- fin encabezado -->
 	<main>
-		<div class="contenedor-portada">
+		<div class="contenedor-portada"  data-aos="zoom-out" data-aos-duration="2000">
 		<img id="top" src="../assets/img/portada quienes somos.jpg" alt="imagen tencológica">
 		<h1 class="text-center mt-2">Quienes somos</h1>
 		</div>
@@ -83,26 +85,26 @@
 		<h2 class="text-center mt-2">NUESTROS PILARES</h2>
 		<section class="container  d-flex flex-wrap">
 			
-			<article class="col-4">
-				<img id="top" src="../assets/img/equipo.png" alt="Personas">
+			<article class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="2000">
+				<img id="top" class="img-fluid" src="../assets/img/equipo.png" alt="Personas">
 				<h3 class="text-center mt-2">Personas</h3>
 				<p class="text-center px-2">En Catena valoramos a nuestros trabajadores, velamos por sus motivaciones personales y metas
 					profesionales.</p>
 			</article>
-			<article class="col-4">
-				<img id="top" src="../assets/img/mejora.png" alt="Mejora Continua">
+			<article class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="2000">
+				<img id="top" class="img-fluid" src="../assets/img/mejora.png" alt="Mejora Continua">
 				<h3 class="text-center mt-2">Mejora Continua</h3>
 				<p class="text-center px-2">Trabajamos constantemente en maximizar la calidad de nuestro trabajo. Enfrentamos cada desafío en
 					busca de la excelencia técnica, con profesionalismo y una mirada innovadora</p>
 			</article>
-			<article class="col-4">
-				<img id="top" src="../assets/img/confianza.png" alt="Compromiso">
+			<article class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="2000">
+				<img id="top" class="img-fluid" src="../assets/img/confianza.png" alt="Compromiso">
 				<h3 class="text-center mt-2">Compromiso</h3>
 				<p class="text-center px-2">Nuestro compromiso es maximizar nuestras capacidades humanas y técnicas para comprometernos con la
 					resolución de las necesidades de nuestros clientes.</p>
 			</article>
 		</section>
-		<section class="card bg-dark text-white mt-2">
+		<section class="card bg-dark text-white mt-2" data-aos="fade-up" data-aos-duration="2000">
 			<img src="../assets/img/fondo 1.png" class="card-img" alt="fondo azul">
 			<div class="container card-img-overlay d-flex align-items-center justify-content-end">
 				<h2 id="text_banner" class="text-right">¿Tienes un proyecto digital en mente?</h2>
@@ -146,7 +148,11 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 		crossorigin="anonymous"></script>
-
+<!--AOS JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init();
+</script>
 </body>
 
 </html>
